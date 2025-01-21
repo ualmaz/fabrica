@@ -1,0 +1,234 @@
+{% extends "master.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+  <main class="main">
+  
+  <style>
+
+    /* General form styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-input:focus, .form-textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.form-textarea {
+    height: 150px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+span {
+    color: red;
+}
+
+  </style>
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">{% trans "Contact" %}</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "Contact" %}</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <div class="mb-5">
+        <!-- <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d545.2409576170708!2d74.49542667677824!3d42.88252630544217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ecf55924ada21%3A0x7831ec5514a04cbb!2sVFMW%2B24V%2C%20Bishkek!5e1!3m2!1sen!2skg!4v1737238962231!5m2!1sen!2skg" frameborder="0" allowfullscreen=""></iframe> -->
+      </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>{% trans "We're here to assist you!" %}</h3>
+              <p>{% trans "We’d love to collaborate with you! Whether you have questions, custom orders, or partnership inquiries, our team is here to assist you. Reach out to us, and we’ll do our best to bring your ideas to life with quality craftsmanship and attention to detail." %}</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>{% trans "Location:" %}</h4>
+                  <p>{% trans "Kerme-Too street 12, Bishkek" %}</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>{% trans "Email:" %}</h4>
+                  <p>ualmaz@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>{% trans "Call:" %}</h4>
+                  <p>+996 509 144 011</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="social-buttons mt-4">
+                <div class="row g-0">
+                    <div class="col-sm-2">
+                        <div class="p-3" style="width: 60px; height: 60px;">
+                          <a href="https://wa.me/996509144011?text=Hello%20I%20need%20help" style="text-decoration: none; outline: none; background-color: none; " target="_blank">
+                            <!-- <i class="fa fa-whatsapp" style="font-size: 30px; color: rgb(0, 255, 85); border: none; outline: none;"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));">
+                              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="p-3" style="width: 60px; height: 60px; margin-top: 1px;">
+                          <a href="https://t.me/ualmaz" style="text-decoration: none; outline: none;" target="_blank">
+                            <!-- <i class="fa fa-telegram" style="font-size: 28px; color: rgb(57, 149, 224); border: none; outline: none;"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0088cc" class="bi bi-telegram" viewBox="0 0 16 16" style="filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));">
+                              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                            </svg>
+
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+              <div class="social-buttons mt-4">
+
+                <!-- WhatsApp Button with Icon -->
+              <div>
+                
+              </div>
+                <!-- Telegram Button with Icon -->
+              <div>
+
+              </div>
+            </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form method="POST" action="{% url 'contact' %}">
+              {% csrf_token %}
+              
+              <div class="form-group">
+                  <label for="firstname">{% trans "First name" %} <span>*</span></label>
+                  {{ form.firstname }}  <!-- Custom widget with class 'form-input' -->
+              </div>
+              
+              <div class="form-group">
+                  <label for="lastname">{% trans "Last name" %} <span>*</span></label>
+                  {{ form.lastname }}  <!-- Custom widget with class 'form-input' -->
+              </div>
+          
+              <div class="form-group">
+                  <label for="email">{% trans "Email address" %} <span>*</span></label>
+                  {{ form.email }}  <!-- Custom widget with class 'form-input' -->
+              </div>
+          
+              <div class="form-group">
+                  <label for="phone">{% trans "Phone number" %} <span>*</span></label>
+                  {{ form.phone }}  <!-- Custom widget with class 'form-input' -->
+              </div>
+          
+              <div class="form-group">
+                  <label for="message">{% trans "Message" %}</label>
+                  {{ form.message }}  <!-- Custom widget with class 'form-textarea' -->
+              </div>
+          
+              <button type="submit" class="submit-btn">{% trans "SUBMIT" %}</button>
+          </form>
+          </div><!-- End Contact Form -->
+          {% if form.errors %}
+  <div class="alert alert-danger">
+    <ul>
+      {% for field, errors in form.errors.items %}
+        {% for error in errors %}
+          <li>{{ field|title }}: {{ error }}</li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+        </div>
+
+      </div>
+
+   
+  </main>
+
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+{% endblock %}

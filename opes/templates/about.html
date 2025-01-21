@@ -1,0 +1,198 @@
+{% extends "master.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">{% trans "About" %}</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">{% trans "Home" %}</a></li>
+            <li class="current">{% trans "About" %}</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- About Section -->
+    <section>
+      <div class="container">
+        <div class="skills-content">
+          <div class="our-skills">
+            <div class="lekalo">
+              <span class="skill">{% trans "PATTERN DEVELOPMENT" %}</span>
+              <p>{% trans "If you don’t find something in our assortment, you can send us a photo of the model, a technical specification, or a physical sample, and we will create a copy of the pattern from scratch and perfect the fit according to your requirements." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "LABELING AND PACKAGING" %}</span>
+              <p>{% trans "We select labels (tags, labels, composition labels, size labels, and packaging), brand all products for you. All you need to provide is the logo." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "PRINTING AND EMBROIDERY" %}</span>
+              <p>{% trans "We brand finished products and also apply prints to the fabric (on the rolls before sewing)." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "WE MEET ALL ORDER DEADLINES." %}</span>
+              <p>{% trans "We are interested in ensuring you receive the goods on time, ship them to your customers, and place a reorder." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "QUALITY CONTROL" %}</span>
+              <p>{% trans "Our reputation is very important to us, which is why we strive to minimize defects. We have a quality control department that monitors the sewing process at all stages of production, from cutting to packaging." %}</p>
+            </div>
+          </div>
+      
+          <div class="our-skills">
+            <div class="lekalo">
+              <span class="skill">{% trans "INDIVIDUAL APPROACH" %}</span>
+              <p>{% trans "Terms of cooperation that suit you and your business. We are interested in long-term and mutually beneficial collaboration." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "FABRIC AND ACCESSORIES" %}</span>
+              <p>{% trans "We select fabric for you (or work with your fabric), have our own partners, can order fabric directly from the manufacturer, and find the necessary hardware and every required detail." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "AFFORDABLE PRICING POLICY" %}</span>
+              <p>{% trans "We optimize production costs. However, you should understand that high-quality products cannot be cheap." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "MINIMUM ORDER QUANTITY" %}</span>
+              <p>{% trans "The minimum order is 50 units per a product, and you can choose any colors and sizes. Production capacity ranges from 10,000 to 15,000 units per month, depending on the complexity of the sewing model." %}</p>
+            </div>
+            <div class="lekalo">
+              <span class="skill">{% trans "PHOTOSHOOT" %}</span>
+              <p>{% trans "We create content for online sales in a photography studio where our photographers can bring your ideas to life." %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      </section><!-- /Skills Section -->
+  
+
+    <!-- Team Section -->
+    <section id="team" class="team section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{% trans "Our Team" %}</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/askat.png' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>{% trans "Jumakov Askat" %}</h4>
+                <span>{% trans "Pattern Developer" %}</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/samara.png' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>{% trans "Samara Aitymbetova" %}</h4>
+                <span>{% trans "Sewing Production Technologist" %}</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/adina.png' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>{% trans "Adina Nurlanova" %}</h4>
+                <span>{% trans "Accountant/Book Keeper" %}</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/almaz.jpeg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>{% trans "Almaz Uson" %}</h4>
+                <span>{% trans "PR Manager" %}</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Clients Section -->
+    <section id="partners">
+      <h2 style="margin-bottom: 1.25em; text-align: center;">{% trans "Strategic Partners" %}</h2>
+      <div class="partners-container d-flex justify-content-center">
+          <!-- First Row -->
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/catalog/0/search.aspx?search=bulanti"  target="_blank">
+                  <img src="{% static 'assets/img/bulanti.png' %}" alt="Partner 1" style="width: 9.375em; height: auto;"> <!--style="width: 9.375em; height: auto; -->
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/311188129-jasedi"  target="_blank">
+                  <img src="{% static 'assets/img/jasedi.png' %}" alt="Partner 2" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/310830234-perfecteka"  target="_blank">
+              <img src="{% static 'assets/img/perfecteka.png' %}" alt="Partner 3" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/311191894-modexo"  target="_blank">
+              <img src="{% static 'assets/img/modexo.png' %}" alt="Partner 4" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+  
+          <!-- Second Row -->
+          <div class="partner-logo">
+              <a href="#"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+              <img src="{% static 'assets/img/oksi.png' %}" alt="Partner 5" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/312047349-zarujasti"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+              <img src="{% static 'assets/img/zaru.png' %}" alt="Partner 6" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/311398249-new-looks"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+              <img src="{% static 'assets/img/newlooks.png' %}" alt="Partner 7" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+          <div class="partner-logo">
+              <a href="https://www.wildberries.ru/brands/876203-opes"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+              <img src="{% static 'assets/img/opes.png' %}" alt="Partner 8" style="width: 9.375em; height: auto;">
+              </a>
+          </div>
+      </div>
+  </section>
+  
+
+  </main>
+
+{% endblock %}

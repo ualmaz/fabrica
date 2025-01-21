@@ -1,0 +1,197 @@
+{% extends "master.html" %}
+{% load static %}
+{% load i18n %}
+
+
+
+{% block content %}
+<style>
+
+a {
+  color: #007bff; /* Bootstrap's primary link color */
+  text-decoration: none;
+}
+
+</style>
+  <main class="main">
+
+    <div class="banner">
+      <div class="banner-text">
+          <h1>{% trans "Welcome to Our Sewing Factory" %}</h1>
+          <p>{% trans "Quality you can trust, crafted with care" %}</p>
+          <h3 class="partner">{% trans "Your Sewing Partner" %}</h3>
+  
+      </div>
+  </div>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        
+        <!-- Flex row for proper alignment -->
+        <div class="row d-flex align-items-center">
+          
+          <!-- Text Section -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="inner-title">{% trans "BRING YOUR IDEAS TO LIFE WITH US!" %}</h5>
+            <div class="our-story">
+              <p>{% trans "We specialize in producing stylish, functional, and long-lasting garments at prices that make sense for your business. Our efficient processes and skilled team allow us to deliver bulk orders on time without ever compromising on quality." %}</p>                
+              <ul>
+                <li><i class="bi bi-check-circle mb-5"></i> <span>{% trans "We believe in building strong, collaborative partnerships, helping you create clothing that resonates with your customers and strengthens your brand’s identity." %}</span></li>
+                <li><i class="bi bi-check-circle mb-5"></i> <span>{% trans "We don’t just produce garments; we craft solutions tailored to your unique needs, providing personalized service and expert guidance along the way." %}</span></li>
+                <li><i class="bi bi-check-circle mb-5"></i> <span>{% trans "We’re more than just a production facility—we’re your trusted partner in bringing your vision to life." %}</span></li>
+              </ul>
+              <p>{% trans "Let’s create something extraordinary together. Reach out to us today and let’s start turning your dreams into reality!" %}</p>
+    
+              <div class="watch-video d-flex align-items-center">
+                <i class="bi bi-play-circle"></i>
+                <a href="https://www.youtube.com/shorts/CUIMQ2qwI_A" target="_blank">{% trans "Watch Video" %}</a> &nbsp; or <a href="{% url 'contact' %}">contact</a> &nbsp;us
+              </div>
+            </div>
+          </div>
+    
+          <!-- Image Section -->
+          <div class="col-lg-6 about-image" style="max-height: 715px;">
+            <img src="{% static 'assets/img/about_us4.png' %}" class="img-fluid" style="object-fit: cover; height: 100%;">
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="products">
+      <h1 style="text-align: center; margin-bottom: 1.25em;">{% trans "PORTFOLIO" %}</h1>
+      <div class="product-container  text-wrap px-5">
+        <div class="row">
+          <!-- Product 1 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'mens' %}">
+                  <img src="{% static 'assets/img/mens.png' %}" alt="Premium Cotton T-Shirt">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'mens' %}" class="port-link">
+                      <h3>{% trans "Premium men's clothing" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Premium men's clothing: top quality, flexible terms, client-first!" %}</p>
+              </div>
+          
+          </div>
+          <!-- Product 2 -->
+          <div class="product-card col-md-4 col-sm-12 text-wrap">
+              <a href="{% url 'womens' %}">
+                  <img src="{% static 'assets/img/womens.png' %}" alt="Stylish Denim Jacket">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'womens' %}">
+                      <h3>{% trans "Stylish women dresses" %} &rarr;</h3>
+                  </a>
+                  <p class="text-wrap">{% trans "Elegant women's clothing: premium quality, the look women want, flexible terms!" %}</p>
+              </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'sport' %}">
+                  <img src="{% static 'assets/img/sport.png' %}" alt="Elegant Maxi Dress">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'sport' %}">
+                      <h3>{% trans "Premium Sportswear" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Top-quality sportswear: premium comfort, the style you need, client-focused" %}</p>
+              </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'uniform' %}">
+                  <img src="{% static 'assets/img/uniform.png' %}" alt="Premium Cotton T-Shirt">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'uniform' %}">
+                      <h3>{% trans "Uniforms" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Premium uniforms: best quality and comfortable for work" %}</p>
+              </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'kids' %}">
+                  <img src="{% static 'assets/img/baby.png' %}" alt="Stylish Denim Jacket">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'kids' %}">
+                      <h3>{% trans "Kids' Clothing" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Quality kids' clothing: premium, comfy, and best for your children" %}</p>
+              </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'bed' %}">
+                  <img src="{% static 'assets/img/bed.png' %}" alt="Elegant Maxi Dress">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'bed' %}">
+                      <h3>{% trans "Luxury Bedding Sets" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Luxurious bedding sets: premium quality, cozy comfort, client-focused" %}</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="partners">
+    <h2 class="mb-5" style="text-align: center;">{% trans "Strategic Partners" %}</h2>
+    <div class="partners-container d-flex justify-content-center mt-4">
+        <!-- First Row -->
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/catalog/0/search.aspx?search=bulanti"  target="_blank">
+                <img src="{% static 'assets/img/bulanti.png' %}" alt="Partner 1" style="width: 9.375em; height: auto;"> <!--style="width: 9.375em; height: auto; -->
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/311188129-jasedi"  target="_blank">
+                <img src="{% static 'assets/img/jasedi.png' %}" alt="Partner 2" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/310830234-perfecteka"  target="_blank">
+            <img src="{% static 'assets/img/perfecteka.png' %}" alt="Partner 3" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/311191894-modexo"  target="_blank">
+            <img src="{% static 'assets/img/modexo.png' %}" alt="Partner 4" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+
+        <!-- Second Row -->
+        <div class="partner-logo">
+            <a href="#"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+            <img src="{% static 'assets/img/oksi.png' %}" alt="Partner 5" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/312047349-zarujasti"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+            <img src="{% static 'assets/img/zaru.png' %}" alt="Partner 6" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/311398249-new-looks"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+            <img src="{% static 'assets/img/newlooks.png' %}" alt="Partner 7" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+        <div class="partner-logo">
+            <a href="https://www.wildberries.ru/brands/876203-opes"  target="_blank" style="display: inline-block; border: none; text-decoration: none;">
+            <img src="{% static 'assets/img/opes.png' %}" alt="Partner 8" style="width: 9.375em; height: auto;">
+            </a>
+        </div>
+    </div>
+</section>
+
+  </main>
+
+{% endblock %}

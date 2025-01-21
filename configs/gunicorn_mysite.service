@@ -1,0 +1,26 @@
+[Unit]
+Description=gunicorn daemon for mysite project
+Requires=gunicorn_mysite.socket
+After=network.target
+
+[Service]
+PermissionsStartOnly=True
+User=ualmaz
+Group=www-data
+RuntimeDirectory=gunicorn
+RuntimeDirectoryMode=0775
+PIDFile=/run/gunicorn/pid
+WorkingDirectory=/home/ualmaz/myproject
+ExecStart=/home/ualmaz/myproject/env/bin/gunicorn \
+          --access-logfile /home/ualmaz/myproject/logs/access.log \
+          --error-logfile /home/ualmaz/myproject/logs/error.log \
+          --pid /run/gunicorn/pid   \
+          --env DJANGO_SETTINGS_MODULE=mysite.settings_prod \
+          --workers 3 \
+          --bind unix:/run/gunicorn/mysite_socket mysite.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

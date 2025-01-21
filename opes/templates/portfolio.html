@@ -1,0 +1,109 @@
+{% extends "master.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title accent-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="current">Portfolio</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Services Section -->
+    <section id="products">
+      <h1 style="text-align: center; margin-bottom: 1.25em;">{% trans "PORTFOLIO" %}</h1>
+      <div class="product-container  text-wrap px-5">
+        <div class="row">
+          <!-- Product 1 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'mens' %}">
+                  <img src="{% static 'assets/img/mens.png' %}"  alt="Premium Cotton T-Shirt">
+              </a>
+              <div class="product-info">
+                  <a href="№">
+                      <h4>{% trans "Premium men's clothing" %} &rarr;</h4>
+                  </a>
+                  <p>{% trans "Premium men's clothing: top quality, flexible terms, client-first!" %}</p>
+              </div>
+          
+          </div>
+          <!-- Product 2 -->
+          <div class="product-card col-md-4 col-sm-12 text-wrap">
+              <a href="{% url 'womens' %}">
+                  <img src="{% static 'assets/img/womens.png' %}" alt="Stylish Denim Jacket">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'womens' %}">
+                      <h4>{% trans "Stylish women dresses" %} &rarr;</h4>
+                  </a>
+                  <p class="text-wrap">{% trans "Elegant women's clothing: premium quality, the look women want, flexible terms!" %}</p>
+              </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'sport' %}">
+                  <img src="{% static 'assets/img/sport.png' %}" alt="Elegant Maxi Dress">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'sport' %}">
+                      <h3>{% trans "Premium Sportswear" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Top-quality sportswear: premium comfort, the style you need, client-focused" %}</p>
+              </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'uniform' %}">
+                  <img src="{% static 'assets/img/uniform.png' %}" alt="Premium Cotton T-Shirt">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'uniform' %}">
+                      <h3>{% trans "Uniforms" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Premium uniforms: best quality and comfortable for work" %}</p>
+              </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'kids' %}">
+                  <img src="{% static 'assets/img/baby.png' %}" alt="Stylish Denim Jacket">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'kids' %}">
+                      <h3>{% trans "Kids' Clothing" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Quality kids' clothing: premium, comfy, and best for your children" %}</p>
+              </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="product-card col-md-4 col-sm-12">
+              <a href="{% url 'bed' %}">
+                  <img src="{% static 'assets/img/bed.png' %}" alt="Elegant Maxi Dress">
+              </a>
+              <div class="product-info">
+                  <a href="{% url 'bed' %}">
+                      <h3>{% trans "Luxury Bedding Sets" %} &rarr;</h3>
+                  </a>
+                  <p>{% trans "Luxurious bedding sets: premium quality, cozy comfort, client-focused" %}</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  </main>
+
+
+{% endblock %}

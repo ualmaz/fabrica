@@ -1,0 +1,936 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-20 20:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: mysite/settings.py:116
+msgid "English"
+msgstr "Английский"
+
+#: mysite/settings.py:117 opes/templates/master.html:50
+msgid "Русский"
+msgstr "Русский"
+
+#: opes/templates/about.html:13 opes/templates/about.html:17
+#: opes/templates/master.html:71
+msgid "About"
+msgstr "О нас"
+
+#: opes/templates/about.html:16 opes/templates/contact.html:76
+#: opes/templates/master.html:70 opes/templates/services.html:15
+#: opes/templates/team.html:16
+msgid "Home"
+msgstr "Главная"
+
+#: opes/templates/about.html:29
+msgid "PATTERN DEVELOPMENT"
+msgstr "РАЗРАБОТКА ВЫКРОЕК"
+
+#: opes/templates/about.html:30
+msgid ""
+"If you don’t find something in our assortment, you can send us a photo of "
+"the model, a technical specification, or a physical sample, and we will "
+"create a copy of the pattern from scratch and perfect the fit according to "
+"your requirements."
+msgstr ""
+"Если вы не нашли что-то в нашем ассортименте, вы можете отправить нам фото "
+"модели, техническое задание или физический образец, и мы создадим копию "
+"выкройки с нуля и доведем посадку до совершенства в соответствии с вашими "
+"требованиями."
+
+#: opes/templates/about.html:33
+msgid "LABELING AND PACKAGING"
+msgstr "МАРКИРОВКА И УПАКОВКА"
+
+#: opes/templates/about.html:34
+msgid ""
+"We select labels (tags, labels, composition labels, size labels, and "
+"packaging), brand all products for you. All you need to provide is the logo."
+msgstr ""
+"Мы подбираем этикетки (ярлыки, этикетки, составные этикетки, размерные "
+"этикетки и упаковку), брендируем все продукты для вас. Все, что вам нужно "
+"предоставить, это логотип."
+
+#: opes/templates/about.html:37
+msgid "PRINTING AND EMBROIDERY"
+msgstr "ПЕЧАТЬ И ВЫШИВКА"
+
+#: opes/templates/about.html:38
+msgid ""
+"We brand finished products and also apply prints to the fabric (on the rolls "
+"before sewing)."
+msgstr ""
+"Мы брендируем готовую продукцию, а также наносим принты на ткань (на рулоны "
+"до пошива)."
+
+#: opes/templates/about.html:41
+msgid "WE MEET ALL ORDER DEADLINES."
+msgstr "МЫ СОБЛЮДАЕМ ВСЕ СРОКИ ЗАКАЗОВ."
+
+#: opes/templates/about.html:42
+msgid ""
+"We are interested in ensuring you receive the goods on time, ship them to "
+"your customers, and place a reorder."
+msgstr ""
+"Мы заинтересованы в том, чтобы вы получили товары вовремя, отправили их "
+"своим клиентам и разместили повторный заказ."
+
+#: opes/templates/about.html:45
+msgid "QUALITY CONTROL"
+msgstr "КОНТРОЛЬ КАЧЕСТВА"
+
+#: opes/templates/about.html:46
+msgid ""
+"Our reputation is very important to us, which is why we strive to minimize "
+"defects. We have a quality control department that monitors the sewing "
+"process at all stages of production, from cutting to packaging."
+msgstr ""
+"Наша репутация очень важна для нас, поэтому мы стремимся минимизировать "
+"дефекты. У нас есть отдел контроля качества, который контролирует процесс "
+"пошива на всех этапах производства, от раскроя до упаковки."
+
+#: opes/templates/about.html:52
+msgid "INDIVIDUAL APPROACH"
+msgstr "ИНДИВИДУАЛЬНЫЙ ПОДХОД"
+
+#: opes/templates/about.html:53
+msgid ""
+"Terms of cooperation that suit you and your business. We are interested in "
+"long-term and mutually beneficial collaboration."
+msgstr ""
+"Условия сотрудничества, которые подходят вам и вашему бизнесу. Мы "
+"заинтересованы в долгосрочном и взаимовыгодном сотрудничестве."
+
+#: opes/templates/about.html:56
+msgid "FABRIC AND ACCESSORIES"
+msgstr "ТКАНИ И АКСЕССУАРЫ"
+
+#: opes/templates/about.html:57
+msgid ""
+"We select fabric for you (or work with your fabric), have our own partners, "
+"can order fabric directly from the manufacturer, and find the necessary "
+"hardware and every required detail."
+msgstr ""
+"Мы подбираем ткань для вас (или работаем с вашей тканью), у нас есть свои "
+"партнеры, можем заказать ткань напрямую у производителя и найти необходимую "
+"фурнитуру и все необходимые детали."
+
+#: opes/templates/about.html:60
+msgid "AFFORDABLE PRICING POLICY"
+msgstr "ДОСТУПНАЯ ЦЕНОВАЯ ПОЛИТИКА"
+
+#: opes/templates/about.html:61
+msgid ""
+"We optimize production costs. However, you should understand that high-"
+"quality products cannot be cheap."
+msgstr ""
+"Мы оптимизируем производственные затраты. Однако вы должны понимать, что "
+"качественная продукция не может быть дешевой."
+
+#: opes/templates/about.html:64
+msgid "MINIMUM ORDER QUANTITY"
+msgstr "МИНИМАЛЬНОЕ КОЛИЧЕСТВО ЗАКАЗА"
+
+#: opes/templates/about.html:65
+msgid ""
+"The minimum order is 50 units per a product, and you can choose any colors "
+"and sizes. Production capacity ranges from 10,000 to 15,000 units per month, "
+"depending on the complexity of the sewing model."
+msgstr ""
+"Минимальный заказ составляет 50 единиц на продукт, и вы можете выбрать любые "
+"цвета и размеры. Производственная мощность варьируется от 10 000 до 15 000 "
+"единиц в месяц, в зависимости от сложности модели пошива."
+
+#: opes/templates/about.html:68
+msgid "PHOTOSHOOT"
+msgstr "ФОТОСЕССИЯ"
+
+#: opes/templates/about.html:69
+msgid ""
+"We create content for online sales in a photography studio where our "
+"photographers can bring your ideas to life."
+msgstr ""
+"Мы создаем контент для онлайн-продаж в фотостудии, где наши фотографы могут "
+"воплотить ваши идеи в жизнь."
+
+#: opes/templates/about.html:83
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: opes/templates/about.html:97
+msgid "Jumakov Askat"
+msgstr "Жумаков Аскат"
+
+#: opes/templates/about.html:98
+msgid "Pattern Developer"
+msgstr "Разработчик выкроек"
+
+#: opes/templates/about.html:109
+msgid "Samara Aitymbetova"
+msgstr "Самара Айтымбетова"
+
+#: opes/templates/about.html:110
+msgid "Sewing Production Technologist"
+msgstr "Технолог швейного производства"
+
+#: opes/templates/about.html:121
+msgid "Adina Nurlanova"
+msgstr "Адина Нурланова"
+
+#: opes/templates/about.html:122
+msgid "Accountant/Book Keeper"
+msgstr "Бухгалтер"
+
+#: opes/templates/about.html:133
+msgid "Almaz Uson"
+msgstr "Алмаз Усон"
+
+#: opes/templates/about.html:134
+msgid "PR Manager"
+msgstr "Менеджер по связям с общественностью"
+
+#: opes/templates/about.html:147 opes/templates/index.html:147
+msgid "Strategic Partners"
+msgstr "Стратегические Партнеры"
+
+#: opes/templates/bed.html:78
+msgid "High quality bedding sets"
+msgstr "Высококачественные комплекты постельного белья"
+
+#: opes/templates/bed.html:79 opes/templates/kids.html:79
+#: opes/templates/mens.html:80 opes/templates/sport.html:79
+#: opes/templates/uniform.html:79 opes/templates/womens.html:79
+msgid "Custom Designs We Sew for Our Partners."
+msgstr "Индивидуальные дизайны, которые мы шьем для наших партнеров."
+
+#: opes/templates/bed.html:85 opes/templates/bed.html:92
+#: opes/templates/bed.html:99 opes/templates/bed.html:106
+#: opes/templates/bed.html:113 opes/templates/bed.html:119
+#: opes/templates/bed.html:125 opes/templates/bed.html:131
+#: opes/templates/bed.html:137 opes/templates/bed.html:143
+#: opes/templates/bed.html:149 opes/templates/bed.html:155
+msgid "High quality bedding set"
+msgstr "Высококачественный комплект постельного белья"
+
+#: opes/templates/bed.html:86 opes/templates/bed.html:93
+#: opes/templates/bed.html:100 opes/templates/bed.html:107
+#: opes/templates/bed.html:114 opes/templates/bed.html:120
+#: opes/templates/bed.html:126 opes/templates/bed.html:132
+#: opes/templates/bed.html:138 opes/templates/bed.html:144
+#: opes/templates/bed.html:150 opes/templates/bed.html:156
+#: opes/templates/kids.html:86 opes/templates/kids.html:93
+#: opes/templates/kids.html:100 opes/templates/kids.html:107
+#: opes/templates/kids.html:114 opes/templates/kids.html:120
+#: opes/templates/kids.html:126 opes/templates/kids.html:132
+#: opes/templates/kids.html:138 opes/templates/kids.html:144
+#: opes/templates/kids.html:150 opes/templates/kids.html:156
+#: opes/templates/sport.html:86 opes/templates/sport.html:93
+#: opes/templates/sport.html:100 opes/templates/sport.html:107
+#: opes/templates/sport.html:114 opes/templates/sport.html:120
+#: opes/templates/sport.html:126 opes/templates/sport.html:132
+#: opes/templates/sport.html:138 opes/templates/sport.html:144
+#: opes/templates/sport.html:150 opes/templates/sport.html:156
+#: opes/templates/uniform.html:87 opes/templates/uniform.html:94
+#: opes/templates/uniform.html:101 opes/templates/uniform.html:108
+#: opes/templates/uniform.html:115 opes/templates/uniform.html:121
+#: opes/templates/uniform.html:127 opes/templates/uniform.html:133
+#: opes/templates/uniform.html:139 opes/templates/uniform.html:145
+#: opes/templates/uniform.html:151 opes/templates/uniform.html:157
+#: opes/templates/womens.html:86 opes/templates/womens.html:93
+#: opes/templates/womens.html:100 opes/templates/womens.html:107
+#: opes/templates/womens.html:114 opes/templates/womens.html:120
+#: opes/templates/womens.html:126 opes/templates/womens.html:132
+#: opes/templates/womens.html:138 opes/templates/womens.html:144
+#: opes/templates/womens.html:150 opes/templates/womens.html:156
+msgid "Sewing price: $2"
+msgstr "Цена пошива: $2"
+
+#: opes/templates/bed.html:87 opes/templates/bed.html:94
+#: opes/templates/bed.html:101 opes/templates/bed.html:108
+#: opes/templates/bed.html:115 opes/templates/bed.html:121
+#: opes/templates/bed.html:127 opes/templates/bed.html:133
+#: opes/templates/bed.html:139 opes/templates/bed.html:145
+#: opes/templates/bed.html:151 opes/templates/bed.html:157
+#: opes/templates/kids.html:87 opes/templates/kids.html:94
+#: opes/templates/kids.html:101 opes/templates/kids.html:108
+#: opes/templates/kids.html:115 opes/templates/kids.html:121
+#: opes/templates/kids.html:127 opes/templates/kids.html:133
+#: opes/templates/kids.html:139 opes/templates/kids.html:145
+#: opes/templates/kids.html:151 opes/templates/kids.html:157
+#: opes/templates/mens.html:88 opes/templates/mens.html:95
+#: opes/templates/mens.html:102 opes/templates/mens.html:109
+#: opes/templates/mens.html:116 opes/templates/mens.html:122
+#: opes/templates/mens.html:128 opes/templates/mens.html:134
+#: opes/templates/mens.html:140 opes/templates/mens.html:146
+#: opes/templates/mens.html:152 opes/templates/mens.html:158
+#: opes/templates/sport.html:87 opes/templates/sport.html:94
+#: opes/templates/sport.html:101 opes/templates/sport.html:108
+#: opes/templates/sport.html:115 opes/templates/sport.html:121
+#: opes/templates/sport.html:127 opes/templates/sport.html:133
+#: opes/templates/sport.html:139 opes/templates/sport.html:145
+#: opes/templates/sport.html:151 opes/templates/sport.html:157
+#: opes/templates/uniform.html:88 opes/templates/uniform.html:95
+#: opes/templates/uniform.html:102 opes/templates/uniform.html:109
+#: opes/templates/uniform.html:116 opes/templates/uniform.html:122
+#: opes/templates/uniform.html:128 opes/templates/uniform.html:134
+#: opes/templates/uniform.html:140 opes/templates/uniform.html:146
+#: opes/templates/uniform.html:152 opes/templates/uniform.html:158
+#: opes/templates/womens.html:87 opes/templates/womens.html:94
+#: opes/templates/womens.html:101 opes/templates/womens.html:108
+#: opes/templates/womens.html:115 opes/templates/womens.html:121
+#: opes/templates/womens.html:127 opes/templates/womens.html:133
+#: opes/templates/womens.html:139 opes/templates/womens.html:145
+#: opes/templates/womens.html:151 opes/templates/womens.html:157
+msgid "plus fabric cost"
+msgstr "плюс стоимость ткани"
+
+#: opes/templates/contact.html:73 opes/templates/contact.html:77
+#: opes/templates/master.html:73 opes/templates/master.html:100
+msgid "Contact"
+msgstr "Контакты"
+
+#: opes/templates/contact.html:97
+msgid "We're here to assist you!"
+msgstr "Мы здесь, чтобы помочь вам!"
+
+#: opes/templates/contact.html:98
+msgid ""
+"We’d love to collaborate with you! Whether you have questions, custom "
+"orders, or partnership inquiries, our team is here to assist you. Reach out "
+"to us, and we’ll do our best to bring your ideas to life with quality "
+"craftsmanship and attention to detail."
+msgstr ""
+"Мы будем рады сотрудничать с вами! Если у вас есть вопросы, индивидуальные "
+"заказы или запросы на партнерство, наша команда готова помочь вам. "
+"Обратитесь к нам, и мы сделаем все возможное, чтобы воплотить ваши идеи в "
+"жизнь с качественным мастерством и вниманием к деталям."
+
+#: opes/templates/contact.html:103
+msgid "Location:"
+msgstr "Адрес:"
+
+#: opes/templates/contact.html:104
+msgid "Kerme-Too street 12, Bishkek"
+msgstr "ул. Керме-Тоо 12, Бишкек"
+
+#: opes/templates/contact.html:111 opes/templates/master.html:106
+msgid "Email:"
+msgstr "Электронная почта:"
+
+#: opes/templates/contact.html:119
+msgid "Call:"
+msgstr "Звоните:"
+
+#: opes/templates/contact.html:133
+msgid "First name"
+msgstr "Имя"
+
+#: opes/templates/contact.html:138
+msgid "Last name"
+msgstr "Фамилия"
+
+#: opes/templates/contact.html:143
+msgid "Email address"
+msgstr "Электронная почта"
+
+#: opes/templates/contact.html:148
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: opes/templates/contact.html:153
+msgid "Message"
+msgstr "Сообщение"
+
+#: opes/templates/contact.html:157
+msgid "SUBMIT"
+msgstr "Отправить"
+
+#: opes/templates/index.html:20
+msgid "Welcome to Our Sewing Factory"
+msgstr "Добро пожаловать на нашу швейную фабрику"
+
+#: opes/templates/index.html:21
+msgid "Quality you can trust, crafted with care"
+msgstr "Качество, которому можно доверять"
+
+#: opes/templates/index.html:22
+msgid "Your Sewing Partner"
+msgstr "Ваш швейный партнер"
+
+#: opes/templates/index.html:36
+msgid "BRING YOUR IDEAS TO LIFE WITH US!"
+msgstr "ВОПЛОЩАЙТЕ СВОИ ИДЕИ В ЖИЗНЬ ВМЕСТЕ С НАМИ"
+
+#: opes/templates/index.html:38
+msgid ""
+"We specialize in producing stylish, functional, and long-lasting garments at "
+"prices that make sense for your business. Our efficient processes and "
+"skilled team allow us to deliver bulk orders on time without ever "
+"compromising on quality."
+msgstr ""
+"Мы специализируемся на производстве стильной, функциональной и долговечной "
+"одежды по ценам, которые имеют смысл для вашего бизнеса. Наши эффективные "
+"процессы и квалифицированная команда позволяют нам своевременно выполнять "
+"крупные заказы, не жертвуя качеством."
+
+#: opes/templates/index.html:40
+msgid ""
+"We believe in building strong, collaborative partnerships, helping you "
+"create clothing that resonates with your customers and strengthens your "
+"brand’s identity."
+msgstr ""
+"Мы верим в создание прочных, совместных партнерских отношений, помогая вам "
+"создавать одежду, которая находит отклик у ваших клиентов и укрепляет "
+"идентичность вашего бренда."
+
+#: opes/templates/index.html:41
+msgid ""
+"We don’t just produce garments; we craft solutions tailored to your unique "
+"needs, providing personalized service and expert guidance along the way."
+msgstr ""
+"Мы не просто производим одежду; мы создаем решения, адаптированные к вашим "
+"уникальным потребностям, предоставляя персонализированное обслуживание и "
+"экспертное руководство на каждом этапе."
+
+#: opes/templates/index.html:42
+msgid ""
+"We’re more than just a production facility—we’re your trusted partner in "
+"bringing your vision to life."
+msgstr ""
+"Мы больше, чем просто производственное предприятие — мы ваш надежный партнер "
+"в воплощении вашей идеи в жизнь."
+
+#: opes/templates/index.html:44
+msgid ""
+"Let’s create something extraordinary together. Reach out to us today and "
+"let’s start turning your dreams into reality!"
+msgstr ""
+"Давайте создадим что-то необыкновенное вместе. Свяжитесь с нами сегодня, и "
+"давайте начнем воплощать ваши мечты в реальность!"
+
+#: opes/templates/index.html:48
+msgid "Watch Video"
+msgstr "Смотреть видео"
+
+#: opes/templates/index.html:64 opes/templates/portfolio.html:25
+msgid "PORTFOLIO"
+msgstr "ПОРТФОЛИО"
+
+#: opes/templates/index.html:74 opes/templates/portfolio.html:35
+msgid "Premium men's clothing"
+msgstr "Премиальная мужская одежда"
+
+#: opes/templates/index.html:76 opes/templates/portfolio.html:37
+msgid "Premium men's clothing: top quality, flexible terms, client-first!"
+msgstr ""
+"Премиальная мужская одежда: высшее качество, гибкие условия, клиент на "
+"первом месте!"
+
+#: opes/templates/index.html:87 opes/templates/portfolio.html:48
+msgid "Stylish women dresses"
+msgstr "Стильные женские платья"
+
+#: opes/templates/index.html:89 opes/templates/portfolio.html:50
+msgid ""
+"Elegant women's clothing: premium quality, the look women want, flexible "
+"terms!"
+msgstr ""
+"Элегантная женская одежда: премиальное качество, желаемый вид, гибкие "
+"условия!"
+
+#: opes/templates/index.html:99 opes/templates/portfolio.html:60
+msgid "Premium Sportswear"
+msgstr "Премиальная спортивная одежда"
+
+#: opes/templates/index.html:101 opes/templates/portfolio.html:62
+msgid ""
+"Top-quality sportswear: premium comfort, the style you need, client-focused"
+msgstr ""
+"Спортивная одежда высшего качества: премиальный комфорт, нужный стиль, "
+"ориентированность на клиента"
+
+#: opes/templates/index.html:111 opes/templates/portfolio.html:72
+msgid "Uniforms"
+msgstr "Униформа"
+
+#: opes/templates/index.html:113 opes/templates/portfolio.html:74
+msgid "Premium uniforms: best quality and comfortable for work"
+msgstr "Премиальная униформа: лучшее качество и комфорт для работы"
+
+#: opes/templates/index.html:123 opes/templates/portfolio.html:84
+msgid "Kids' Clothing"
+msgstr "Детская одежда"
+
+#: opes/templates/index.html:125 opes/templates/portfolio.html:86
+msgid "Quality kids' clothing: premium, comfy, and best for your children"
+msgstr ""
+"Качественная детская одежда: премиальная, удобная и лучшая для ваших детей"
+
+#: opes/templates/index.html:135 opes/templates/portfolio.html:96
+msgid "Luxury Bedding Sets"
+msgstr "Роскошные комплекты постельного белья"
+
+#: opes/templates/index.html:137 opes/templates/portfolio.html:98
+msgid "Luxurious bedding sets: premium quality, cozy comfort, client-focused"
+msgstr ""
+"Роскошные комплекты постельного белья: премиальное качество, уютный комфорт, "
+"ориентированность на клиента"
+
+#: opes/templates/kids.html:78 opes/templates/sport.html:78
+#: opes/templates/uniform.html:78
+msgid "Product Listings"
+msgstr "Список изделий"
+
+#: opes/templates/kids.html:85
+msgid "Kids checked dress"
+msgstr "Детское платья в клетках"
+
+#: opes/templates/kids.html:92
+msgid "Sporty blue zip-up hoodie for boys"
+msgstr "Спортивная синяя толстовка с капюшоном на молнии для мальчиков"
+
+#: opes/templates/kids.html:99
+msgid "Soft and cute baby girl's sweatshirt"
+msgstr "Мягкая и милая толстовка для девочки."
+
+#: opes/templates/kids.html:106
+msgid "Tracksuit Set Girl Pink"
+msgstr "Спортивный костюм для девочки, розовый"
+
+#: opes/templates/kids.html:113
+msgid "Kids stripe-print cotton dress"
+msgstr "Детское платье из хлопка в полоску"
+
+#: opes/templates/kids.html:119
+msgid "Kids cotton dress"
+msgstr "Детское хлопковое платье"
+
+#: opes/templates/kids.html:125
+msgid "Cotton Teddy Bear Baby T-Shirt"
+msgstr "Футболка из хлопка с мишкой для малышей"
+
+#: opes/templates/kids.html:131
+msgid "Girls Pink Cotton Sweatshirt"
+msgstr "Розовый хлопковый свитшот для девочек"
+
+#: opes/templates/kids.html:137
+msgid "Baby Cotton Printed Coveralls"
+msgstr "Комбинезоны из хлопка с принтом для младенцев"
+
+#: opes/templates/kids.html:143
+msgid "Baby Boy Cartoon Bear Pattern Round Neck Top And Shorts"
+msgstr "Топ и шорты с круглым вырезом и рисунком медведя для мальчика"
+
+#: opes/templates/kids.html:149
+msgid "Dressy dress for girls"
+msgstr "Нарядное платье для девочек"
+
+#: opes/templates/kids.html:155
+msgid "Baby Girls Tracksuit"
+msgstr "Спортивный костюм для девочек"
+
+#: opes/templates/master.html:11
+
+#| msgid "Welcome to Our Sewing Factory"
+msgid "Sewing Factory"
+msgstr "Добро пожаловать на нашу швейную фабрику"
+
+#: opes/templates/master.html:64 opes/templates/master.html:132
+msgid "Company"
+msgstr "Компания"
+
+#: opes/templates/master.html:72
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: opes/templates/master.html:103
+msgid "Kerme-Too 12"
+msgstr "ул. Керме-Тоо 12, Бишкек"
+
+#: opes/templates/master.html:104
+msgid "Bishkek, Kyrgyzstan"
+msgstr "Бишкек, Кыргызстан"
+
+#: opes/templates/master.html:105
+msgid "Phone:"
+msgstr "Телефон"
+
+#: opes/templates/master.html:117
+msgid "Our Services"
+msgstr "Наши сервисы"
+
+#: opes/templates/master.html:119
+msgid "Order fabric"
+msgstr "Заказать ткань"
+
+#: opes/templates/master.html:120
+#, fuzzy
+#| msgid "Pattern Developer"
+msgid "Pattern Development"
+msgstr "Разработчик выкроек"
+
+#: opes/templates/master.html:121
+msgid "Sewing"
+msgstr "Пошив"
+
+#: opes/templates/master.html:122
+msgid "Printing"
+msgstr "Нанесение рисунок"
+
+#: opes/templates/master.html:123
+msgid "Packing & Shipping"
+msgstr "Упаковка и доставка"
+
+#: opes/templates/master.html:132
+msgid "Copyright"
+msgstr ""
+
+#: opes/templates/master.html:132
+msgid "All Rights Reserved"
+msgstr ""
+
+#: opes/templates/master.html:138
+msgid "BootstrapMade"
+msgstr ""
+
+#: opes/templates/master.html:138
+msgid "ThemeWagon"
+msgstr ""
+
+#: opes/templates/mens.html:79
+msgid "Men's Clothing"
+msgstr "Мужская Одежда"
+
+#: opes/templates/mens.html:86 opes/templates/mens.html:93
+#: opes/templates/mens.html:120 opes/templates/mens.html:126
+#: opes/templates/mens.html:132
+msgid "Cozy plaid flannel check shirt."
+msgstr "Уютная фланелевая рубашка в клетку."
+
+#: opes/templates/mens.html:87 opes/templates/mens.html:94
+#: opes/templates/mens.html:101 opes/templates/mens.html:108
+#: opes/templates/mens.html:115 opes/templates/mens.html:121
+#: opes/templates/mens.html:127 opes/templates/mens.html:133
+#: opes/templates/mens.html:139 opes/templates/mens.html:151
+msgid "sewing price $2"
+msgstr "Цена пошива: $2"
+
+#: opes/templates/mens.html:100 opes/templates/mens.html:107
+#: opes/templates/mens.html:114
+msgid "A stylish shirt made of corduroy."
+msgstr "Стильная рубашка из вельвета."
+
+#: opes/templates/mens.html:138
+msgid "Premium fabric stylish hoodie."
+msgstr "Стильная толстовка с капюшоном из премиальной ткани."
+
+#: opes/templates/mens.html:144
+msgid "Comfortable and stylish casual tee."
+msgstr "Удобная и стильная повседневная футболка."
+
+#: opes/templates/mens.html:145
+msgid "sewing price $1"
+msgstr "Цена пошива: $1"
+
+#: opes/templates/mens.html:150
+msgid "Trendy and comfortable cargo pants."
+msgstr "Модные и удобные брюки-карго."
+
+#: opes/templates/mens.html:156
+msgid "Luxurious warm cashmere coat."
+msgstr "Роскошное теплое кашемировое пальто."
+
+#: opes/templates/mens.html:157
+msgid "sewing price $10"
+msgstr "Цена пошива: $2"
+
+#: opes/templates/services.html:12 opes/templates/services.html:16
+msgid "Services"
+msgstr "Услуги"
+
+#: opes/templates/services.html:38
+msgid "Nesciunt Mete"
+msgstr ""
+
+#: opes/templates/services.html:40
+msgid ""
+"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium "
+"minus dolores iure perferendis tempore et consequatur."
+msgstr ""
+
+#: opes/templates/services.html:53
+msgid "Eosle Commodi"
+msgstr ""
+
+#: opes/templates/services.html:55
+msgid ""
+"Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero "
+"corrupti neque eum hic non ut nesciunt dolorem."
+msgstr ""
+
+#: opes/templates/services.html:68
+msgid "Ledo Markt"
+msgstr ""
+
+#: opes/templates/services.html:70
+msgid ""
+"Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel "
+"qui id voluptas adipisci eos earum corrupti."
+msgstr ""
+
+#: opes/templates/services.html:83
+msgid "Asperiores Commodit"
+msgstr ""
+
+#: opes/templates/services.html:85
+msgid ""
+"Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed "
+"error ea fuga sit provident adipisci neque."
+msgstr ""
+
+#: opes/templates/services.html:99
+msgid "Velit Doloremque"
+msgstr ""
+
+#: opes/templates/services.html:101
+msgid ""
+"Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam "
+"corporis aut. Sed animi at autem alias eius labore."
+msgstr ""
+
+#: opes/templates/services.html:115
+msgid "Dolori Architecto"
+msgstr ""
+
+#: opes/templates/services.html:117
+msgid ""
+"Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et "
+"debitis iure. Corrupti recusandae ducimus enim."
+msgstr ""
+
+#: opes/templates/services.html:133
+msgid "Features"
+msgstr ""
+
+#: opes/templates/services.html:134
+msgid ""
+"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur "
+"velit"
+msgstr ""
+
+#: opes/templates/services.html:144
+msgid "Lorem Ipsum"
+msgstr ""
+
+#: opes/templates/services.html:151
+msgid "Dolor Sitema"
+msgstr ""
+
+#: opes/templates/services.html:158
+msgid "Sed perspiciatis"
+msgstr ""
+
+#: opes/templates/services.html:165
+msgid "Magni Dolores"
+msgstr ""
+
+#: opes/templates/services.html:172
+msgid "Nemo Enim"
+msgstr ""
+
+#: opes/templates/services.html:179
+msgid "Eiusmod Tempor"
+msgstr ""
+
+#: opes/templates/services.html:186
+msgid "Midela Teren"
+msgstr ""
+
+#: opes/templates/services.html:193
+msgid "Pira Neve"
+msgstr ""
+
+#: opes/templates/services.html:200
+msgid "Dirada Pack"
+msgstr ""
+
+#: opes/templates/services.html:207
+msgid "Moton Ideal"
+msgstr ""
+
+#: opes/templates/services.html:214
+msgid "Verdo Park"
+msgstr ""
+
+#: opes/templates/services.html:221
+msgid "Flavor Nivelanda"
+msgstr ""
+
+#: opes/templates/sport.html:85 opes/templates/sport.html:92
+#: opes/templates/sport.html:99 opes/templates/sport.html:106
+#: opes/templates/sport.html:113
+msgid ""
+"Stylish tracksuit, comfy, breathable, unisex, sporty fit, versatile wear"
+msgstr "Стильный спортивный костюм, удобный, дышащий, унисекс, спортивный крой, универсальная одежда."
+
+#: opes/templates/sport.html:119 opes/templates/sport.html:125
+#: opes/templates/sport.html:131
+msgid ""
+"Supportive sports bra, soft, breathable, stretch-fit, moisture-wicking, "
+"stylish design"
+msgstr ""
+"Поддерживающий спортивный топик, мягкий, дышащий, эластичный, "
+"отводящий влагустильный дизайн"
+
+#: opes/templates/sport.html:137
+msgid ""
+"Sport pants, stretchy, breathable, durable, quick-dry, versatile, sporty fit"
+msgstr ""
+"Спортивные брюки, эластичные, дышащие, прочные, быстросохнущие, "
+"универсальные, спортивный крой"
+
+#: opes/templates/sport.html:143
+msgid "Cozy, breathable, durable, sporty design, unisex comfortable sweatshirt"
+msgstr "Уютная, дышащая, прочная, спортивного дизайна, удобная толстовка унисекс"
+
+#: opes/templates/sport.html:149
+msgid ""
+"Lightweight wind jacket, durable, breathable, water-resistant, sporty, "
+"compact design"
+msgstr "Легкая ветровка, прочная, дышащая, водонепроницаемая, спортивная, компактная конструкция"
+
+#: opes/templates/sport.html:155
+msgid ""
+"Women's T-shirt, light, breathable, quick-dry, sporty fit, stylish design "
+"soft, breathable, moisture-wicking, stylish design"
+msgstr ""
+"Футболка женская, легкая, дышащая, быстросохнущая, спортивный крой, стильный "
+"дизайн.мягкий, дышащий, влагоотводящий, стильный дизайн"
+
+#: opes/templates/team.html:13 opes/templates/team.html:17
+msgid "Team"
+msgstr "Наша команда"
+
+#: opes/templates/team.html:42
+msgid "Walter White"
+msgstr ""
+
+#: opes/templates/team.html:43
+msgid "Chief Executive Officer"
+msgstr ""
+
+#: opes/templates/team.html:60
+msgid "Sarah Jhonson"
+msgstr ""
+
+#: opes/templates/team.html:61
+#, fuzzy
+#| msgid "PR Manager"
+msgid "Product Manager"
+msgstr "Менеджер по связям с общественностью"
+
+#: opes/templates/team.html:78
+msgid "William Anderson"
+msgstr ""
+
+#: opes/templates/team.html:79
+msgid "CTO"
+msgstr ""
+
+#: opes/templates/team.html:96
+msgid "Amanda Jepson"
+msgstr ""
+
+#: opes/templates/team.html:97
+msgid "Accountant"
+msgstr "Бухгалтер"
+
+#: opes/templates/uniform.html:86 opes/templates/uniform.html:93
+#: opes/templates/uniform.html:144
+msgid "Medical Scrubs"
+msgstr "Медицинские халаты"
+
+#: opes/templates/uniform.html:100
+msgid "Pilot Uniform"
+msgstr "Униформа"
+
+#: opes/templates/uniform.html:107
+msgid "High-visibility safety vest"
+msgstr "Светоотражающий жилет безопасности"
+
+#: opes/templates/uniform.html:114 opes/templates/uniform.html:120
+#: opes/templates/uniform.html:150
+msgid "Security Uniforms"
+msgstr "Униформа для охраны"
+
+#: opes/templates/uniform.html:126 opes/templates/uniform.html:132
+msgid "Military Uniforms"
+msgstr "Военная форма"
+
+#: opes/templates/uniform.html:138
+msgid "Police Uniforms"
+msgstr "Полицейская форма"
+
+#: opes/templates/uniform.html:156
+msgid "Firefighters Uniforms"
+msgstr "Униформа пожарных"
+
+#: opes/templates/womens.html:78
+msgid "Women's Clothing"
+msgstr "Женская одежда"
+
+#: opes/templates/womens.html:85 opes/templates/womens.html:92
+#: opes/templates/womens.html:99 opes/templates/womens.html:106
+#: opes/templates/womens.html:113
+msgid "Casual Summer Dresses for Women"
+msgstr "Повседневные летние платья для женщин"
+
+#: opes/templates/womens.html:119 opes/templates/womens.html:125
+#: opes/templates/womens.html:131 opes/templates/womens.html:137
+#: opes/templates/womens.html:143 opes/templates/womens.html:149
+#: opes/templates/womens.html:155
+msgid "Summer Dresses for Women"
+msgstr "Летние платья для женщин"
+
+#: opes/views.py:75
+msgid "Your message has been sent successfully!"
+msgstr "Ваше сообщение отправлено."
+
+#: opes/views.py:79
+msgid "A user with this email alrady exists."
+msgstr "Пользователь с таким адресом электронной почты уже существует"
+
+#~ msgid "Your Name"
+#~ msgstr "Ваше имя"
+
+#~ msgid "Your Email"
+#~ msgstr "Ваш email"
+
+#~ msgid "Subject"
+#~ msgstr "Тема"
+
+#~ msgid "Loading"
+#~ msgstr "Загрузка"
+
+#~ msgid "Send Message"
+#~ msgstr "Отправить сообщение"
+
+#~ msgid "Russian"
+#~ msgstr "Русский"
