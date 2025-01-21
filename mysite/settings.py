@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-h2d!q*!kbh0a*v58$+$(eka(7uh@yaz@-fq=q)#8j$^(t0dojy
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['64.226.120.85', 'opestextile.com', 'localhost']
+ALLOWED_HOSTS = ['161.35.200.45', 'opestextile.com', 'localhost']
 
 # Application definition
 
