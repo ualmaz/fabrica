@@ -6,7 +6,7 @@ After=network.target
 [Service]
 PermissionsStartOnly=True
 User=ualmaz
-Group=www-data
+Group=ualmaz
 RuntimeDirectory=gunicorn
 RuntimeDirectoryMode=0775
 PIDFile=/run/gunicorn/pid
