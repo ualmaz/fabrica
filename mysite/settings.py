@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 from django.utils.translation import gettext_lazy as _
 from pathlib import Path
+import django
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -134,7 +135,14 @@ STATIC_URL = '/static/'
 # Directory where collectstatic will gather all static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [
+    # Add your app's static files directory
+    os.path.join(BASE_DIR, 'static'),  # Example for a 'static' directory in your project root
+    
+    # Add Django's admin static files directory
+    os.path.join(os.path.dirname(django.__file__), 'contrib', 'admin', 'static'),
+]
 
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
