@@ -14,5 +14,6 @@ urlpatterns = [
     path('bed/', views.bed, name='bed'),
     path('contact/', views.contact_view, name='contact'),
     path('portfolio/', views.portfolio, name='portfolio'),
+    path('cookies/', views.cookies, name='cookies'),
 
 ]

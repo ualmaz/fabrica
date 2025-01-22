@@ -37,6 +37,9 @@ def bed(request):
 def contact(request):
     return render(request, 'contact.html')
 
+def cookies(request):
+    return render(request, 'cookie-policy.html')
+
 
 def contact_view(request):
     print("Contact view reached")
