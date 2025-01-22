@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-h2d!q*!kbh0a*v58$+$(eka(7uh@yaz@-fq=q)#8j$^(t0dojy
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['161.35.200.45', 'opestextile.com', 'localhost']
+ALLOWED_HOSTS = ['46.101.245.49', 'opestextile.com', 'localhost']
 
 # Application definition
 
@@ -159,7 +159,7 @@ CSRF_COOKIE_SECURE = True  # Set to True if using HTTPS
 CSRF_TRUSTED_ORIGINS = [
     'https://opestextile.com', 
     'https://www.opestextile.com', 
-    'http://161.35.79.241',   
+    'http://46.101.245.49',   
     'https://*.opestextile.com',
     'http://localhost',
     'http://127.0.0.1',
