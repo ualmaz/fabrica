@@ -157,12 +157,10 @@ CSRF_COOKIE_NAME = 'csrftoken'
 CSRF_COOKIE_SECURE = True  # Set to True if using HTTPS
 # SESSION_COOKIE_AGE = 1209600  # 2 weeks, in seconds
 CSRF_TRUSTED_ORIGINS = [
-    'https://opestextile.com', 
-    'https://www.opestextile.com', 
-    'http://46.101.245.49',   
-    'https://*.opestextile.com',
-    'http://localhost',
-    'http://127.0.0.1',
+    "http://46.101.245.49",
+    "https://46.101.245.49",
+    "http://opestextile.com",
+    "https://opestextile.com",
 ]
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Stores sessions in the database
