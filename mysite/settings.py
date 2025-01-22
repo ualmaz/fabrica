@@ -154,7 +154,7 @@ LOCALE_PATHS = [
 ]
 
 CSRF_COOKIE_NAME = 'csrftoken'
-CSRF_COOKIE_SECURE = True  # Set to True if using HTTPS
+CSRF_COOKIE_SECURE = False  # Set to True if using HTTPS
 # SESSION_COOKIE_AGE = 1209600  # 2 weeks, in seconds
 CSRF_TRUSTED_ORIGINS = [
     "http://46.101.245.49",
@@ -162,6 +162,9 @@ CSRF_TRUSTED_ORIGINS = [
     "http://opestextile.com",
     "https://opestextile.com",
 ]
+
+
+SESSION_COOKIE_SECURE = False  # То же самое
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Stores sessions in the database
 CSRF_COOKIE_HTTPONLY = True  # To prevent JavaScript access to the CSRF cookie
