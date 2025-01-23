@@ -66,6 +66,20 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: #007bff; /* Use your custom accent color */
+  text-decoration: none; /* Remove the underline */
+ 
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #1a05b2; /* When the user hovers over the link, it turns blue */
+  text-decoration: underline; /* Add underline on hover */
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -75,18 +89,6 @@ body {
   font-family: var(--default-font);
 }
 
-
-
-a {
-  color: #007bff; /* Use your custom accent color */
-  text-decoration: none; /* Remove the underline */
-  transition: color 0.3s ease; /* Add smooth color transition */
-}
-
-a:hover {
-  color: #007bff; /* When the user hovers over the link, it turns blue */
-  text-decoration: underline; /* Add underline on hover */
-}
 
 h1,
 h2,
