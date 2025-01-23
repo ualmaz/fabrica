@@ -81,7 +81,13 @@ span {
         </nav>
       </div>
     </div><!-- End Page Title -->
-
+    {% if messages %}
+  {% for message in messages %}
+    <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}" style="background-color: {% if message.tags == 'success' %}green{% elif message.tags == 'error' %}red{% endif %}; color: white;">
+      {{ message }}
+    </div>
+  {% endfor %}
+{% endif %}
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -199,13 +205,7 @@ span {
               <button type="submit" class="submit-btn">{% trans "SUBMIT" %}</button>
           </form>
           </div><!-- End Contact Form -->
-          {% if messages %}
-  {% for message in messages %}
-    <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}" style="background-color: {% if message.tags == 'success' %}green{% elif message.tags == 'error' %}red{% endif %}; color: white;">
-      {{ message }}
-    </div>
-  {% endfor %}
-{% endif %}
+          
 
         </div>
 
