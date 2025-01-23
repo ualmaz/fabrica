@@ -65,6 +65,8 @@ span {
     color: red;
 }
 
+
+
   </style>
 
     <!-- Page Title -->
@@ -165,6 +167,7 @@ span {
           </div>
 
           <div class="col-lg-8">
+
             <form method="POST" action="{% url 'contact' %}">
               {% csrf_token %}
               
@@ -196,16 +199,12 @@ span {
               <button type="submit" class="submit-btn">{% trans "SUBMIT" %}</button>
           </form>
           </div><!-- End Contact Form -->
-          {% if form.errors %}
-  <div class="alert alert-danger">
-    <ul>
-      {% for field, errors in form.errors.items %}
-        {% for error in errors %}
-          <li>{{ field|title }}: {{ error }}</li>
-        {% endfor %}
-      {% endfor %}
-    </ul>
-  </div>
+          {% if messages %}
+  {% for message in messages %}
+    <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}" style="background-color: {% if message.tags == 'success' %}green{% elif message.tags == 'error' %}red{% endif %}; color: white;">
+      {{ message }}
+    </div>
+  {% endfor %}
 {% endif %}
 
         </div>
