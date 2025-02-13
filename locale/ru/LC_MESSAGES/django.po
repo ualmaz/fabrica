@@ -1902,10 +1902,8 @@ msgid "Order fabric"
 msgstr "Заказать ткань"
 
 #: opes/templates/master.html:121
-#, fuzzy
-#| msgid "Pattern Developer"
 msgid "Pattern Development"
-msgstr "Разработчик выкроек"
+msgstr "Разработка лекалы"
 
 #: opes/templates/master.html:122
 msgid "Sewing"
