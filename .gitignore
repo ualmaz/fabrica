@@ -1,0 +1,143 @@
+# Created by https://www.gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+Чат
+
+Новая беседа
+
+🤓 Объясните сложную вещь
+
+Объясните искусственный интеллект так, чтобы я мог объяснить его моему шестилетнему ребенку.
+
+
+🧠 Получайте предложения и создавайте новые идеи
+
+Пожалуйста, дайте мне 10 лучших идей для путешествий по всему миру
+
+
+💭 Переводите, суммируйте, исправляйте грамматику и многое другое…
+
+Я люблю тебя", по-французски
+
+
+GPT-4o Mini
+Привет, чем я могу помочь вам сегодня?
+Я люблю тебя", по-французски
+GPT-4o Mini
+"Я люблю тебя" по-французски будет "Je t'aime".
+вкраце обясни эту статью
+GPT-4o Mini
+Конечно, напишите, пожалуйста, текст статьи или дайте ссылку на нее, и я помогу вам кратко объяснить ее содержание.
+https://www.biblicaleldership.com/2017/07/19/david-goliath-battle-lords/
+GPT-4o Mini
+К сожалению, я не могу получить доступ к интернет-ссылкам. Однако, если вы предоставите ключевые моменты или основные идеи статьи, я смогу помочь вам объяснить ее содержание и сделать краткий обзор.
+GPT-4o Mini
+coin image
+7
+Обновить
+
+
+
+
+Спроси меня что угодно ...
+
+
+
+Оставьте отзыв и получите кредит ❤
+Чат
+Спросить
+Поиск
+Написать
+Изображение
+ЧатФайл
+Видение
+Полная страница
+Приглашай и Зарабатывай
+
+
