@@ -1,0 +1,844 @@
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 0 3.125em; /* Reduce padding for smaller screens */
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 480px) {
+    /* Adjust overall padding */
+    body {
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: fit-content; /* Adjust banner image width */
+        height: auto;
+    }
+    .about-container1 {
+        flex-direction: column; /* Stack the text and image vertically on mobile */
+        align-items: flex-start; /* Align text to the left */
+        
+    }
+
+    .banner-text h1 {
+        font-size: 1em;
+        margin: 0;
+        display: none;
+    }
+    
+    .banner-text p {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: none;
+    }
+
+    .banner-text h3 {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: block;
+    }
+
+    .about-image1{
+        display: none;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/mob_banner.png') no-repeat center center/cover;
+        width: 100%; /* Or a specific width */
+        height: 100%; /* Or a specific height */
+        object-fit: fill; /* Stretch the image to fill the container */
+    }
+
+    #partners .partner-logo:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .about-text1 {
+        max-width: 100%; /* Allow the text container to take full width */
+        margin-bottom: 20px; /* Space between text and image */
+        text-align: left;
+
+    }
+
+    .about-image1 {
+        max-width: 100%; /* Allow the image container to take full width */
+        ;
+    }
+
+    .prodcut {
+        align-items: center;
+    }
+
+    .banner h1 {
+        display: none;
+    }
+    
+    .banner h3 {
+        display: block;
+    }
+
+    #partners {
+        text-align: center;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #contact {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    ul {
+        list-style: none; /* Remove dots or bullets */
+        padding: 0; /* Optional: Adjust padding for alignment */
+        margin: 0; /* Optional: Adjust margin */
+    }
+
+    ul li {
+        display: block; /* Ensure the text is visible */
+        margin: 0.625em 0; /* Add space between list items */
+    }
+
+    .banner {
+        height: 300px; /* Smaller banner for mobile */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9em; /* Adjust input font size */
+    }
+
+    .navbar {
+        padding: 0.625em;
+    }
+
+    .navbar .menu a {
+        font-size: 12px;
+        padding: 0.5em 0.625em; /* Smaller padding for menu links */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .about-text h3 {
+        font-size: 1.5em; /* Smaller heading */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns center */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .logo {
+        text-align: center; /* Center the logo container */
+        margin: 0 auto; /* Optional: ensures proper centering */
+        display: block;
+    }
+
+    .navbar .logo {
+        margin: 0 auto; /* Center the logo horizontally */
+        text-align: center; /* Center the logo content */
+        margin-bottom: 20px;
+    }
+
+    .navbar .logo img {
+        margin: 0 auto; /* Center the logo image */
+    }
+
+    .banner-text {
+        font-size: 1.2rem; /* Reduce font size */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    /* Ensure the text wraps properly */
+    .banner-text {
+        white-space: normal; /* Allow text to wrap */
+        word-wrap: break-word; /* Break long words */
+        text-align: center; /* Center-align text */
+    }
+
+
+    /* Ensure the content does not move out of the screen */
+    .content {
+        padding: 1em; /* Adjust padding for better fit */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .product-info {
+        padding: 1em; /* Adjust padding for better fit */
+    }
+
+    .container {
+        flex-wrap: wrap; /* Allow items to wrap when needed */
+        justify-content: space-between; /* Space between logo and language switch */
+    }
+
+    .language-switch {
+        margin-top: 10px; /* Add some space if needed between language buttons and other items */
+        justify-content: flex-start; /* Align language buttons to the left */
+    }    
+
+    .product img.hover { opacity: 0; /* Keep the hover image transparent */ } 
+    .product:hover img.hover { opacity: 0; /* Ensure the hover image stays transparent on hover */ } 
+    .product:hover img.default { opacity: 1; /* Ensure the default image stays visible on hover */ }
+
+    .navbar-nav .nav-item.order-1 { order: 1; }
+    .navbar-nav .nav-item.order-2 { order: 2; }
+    .navbar-nav .nav-item.order-3 { order: 3; }
+    .navbar-nav .nav-item.order-4 { order: 4; }
+    .navbar-nav .nav-item.order-5 { order: 4; }
+
+    .about-container,
+    .product-container,
+    .partners-container,
+    .contact-container {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center;
+    }
+
+    .social-buttons {
+        flex-direction: column;  /* Stack buttons vertically on small screens */
+        align-items: center;  /* Center buttons vertically */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns left */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .about-text,
+    .about-text1,
+    .product-info,
+    .contact-details {
+        text-align: left;
+        max-width: 100%; /* Full width for text */
+    }
+
+    .banner {
+        height: 400px; /* Reduce banner height */
+    }
+
+    .contact-form,
+    .contact-details {
+        max-width: 100%; /* Full width */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar elements vertically */
+        height: auto;
+        padding: 0.625em;
+    }
+
+    .navbar .logo img {
+        height: 35px;
+        width: 120px; /* Reduce logo size */
+    }
+
+    .navbar .menu a {
+        padding: 0.625em 1.25em; /* Reduce padding for menu links */
+    }
+
+    .product-container {
+        align-items: center;
+        flex-direction: column; /* Stack products vertically */
+    }
+
+    .product-card {
+        width: 90%; /* Adjust product card width */
+    }
+
+    .product-card:hover {
+        transform: none;
+        opacity: 1;
+    }
+
+
+
+}
+
+@media (max-width: 320px) {
+    /* Styles for devices 320px or smaller */
+    body {
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: fit-content; /* Adjust banner image width */
+        height: auto;
+    }
+    .about-container1 {
+        flex-direction: column; /* Stack the text and image vertically on mobile */
+        align-items: flex-start; /* Align text to the left */
+        
+    }
+
+    .banner-text h1 {
+        font-size: 1em;
+        margin: 0;
+        display: none;
+    }
+    
+    .banner-text p {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: none;
+    }
+
+    .banner-text h3 {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: block;
+    }
+
+    .about-image1{
+        display: none;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/mob_banner.png') no-repeat center center/cover;
+        width: 100%; /* Or a specific width */
+        height: 100%; /* Or a specific height */
+        object-fit: fill; /* Stretch the image to fill the container */
+    }
+
+    #partners .partner-logo:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .about-text1 {
+        max-width: 100%; /* Allow the text container to take full width */
+        margin-bottom: 20px; /* Space between text and image */
+        text-align: left;
+
+    }
+
+    .about-image1 {
+        max-width: 100%; /* Allow the image container to take full width */
+        ;
+    }
+
+    .prodcut {
+        align-items: center;
+    }
+
+    .banner h1 {
+        display: none;
+    }
+    
+    .banner h3 {
+        display: block;
+    }
+
+    #partners {
+        text-align: center;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #contact {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    ul {
+        list-style: none; /* Remove dots or bullets */
+        padding: 0; /* Optional: Adjust padding for alignment */
+        margin: 0; /* Optional: Adjust margin */
+    }
+
+    ul li {
+        display: block; /* Ensure the text is visible */
+        margin: 0.625em 0; /* Add space between list items */
+    }
+
+    .banner {
+        height: 300px; /* Smaller banner for mobile */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9em; /* Adjust input font size */
+    }
+
+    .navbar {
+        padding: 0.625em;
+    }
+
+    .navbar .menu a {
+        font-size: 12px;
+        padding: 0.5em 0.625em; /* Smaller padding for menu links */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .about-text h3 {
+        font-size: 1.5em; /* Smaller heading */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns center */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .logo {
+        text-align: center; /* Center the logo container */
+        margin: 0 auto; /* Optional: ensures proper centering */
+        display: block;
+    }
+
+    .navbar .logo {
+        margin: 0 auto; /* Center the logo horizontally */
+        text-align: center; /* Center the logo content */
+        margin-bottom: 20px;
+    }
+
+    .navbar .logo img {
+        margin: 0 auto; /* Center the logo image */
+    }
+
+    .banner-text {
+        font-size: 1.2rem; /* Reduce font size */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    /* Ensure the text wraps properly */
+    .banner-text {
+        white-space: normal; /* Allow text to wrap */
+        word-wrap: break-word; /* Break long words */
+        text-align: center; /* Center-align text */
+    }
+
+
+    /* Ensure the content does not move out of the screen */
+    .content {
+        padding: 1em; /* Adjust padding for better fit */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .product-info {
+        padding: 1em; /* Adjust padding for better fit */
+    }
+
+    .container {
+        flex-wrap: wrap; /* Allow items to wrap when needed */
+        justify-content: space-between; /* Space between logo and language switch */
+    }
+
+    .language-switch {
+        margin-top: 10px; /* Add some space if needed between language buttons and other items */
+        justify-content: flex-start; /* Align language buttons to the left */
+    }    
+
+    .product img.hover { opacity: 0; /* Keep the hover image transparent */ } 
+    .product:hover img.hover { opacity: 0; /* Ensure the hover image stays transparent on hover */ } 
+    .product:hover img.default { opacity: 1; /* Ensure the default image stays visible on hover */ }
+
+    .navbar-nav .nav-item.order-1 { order: 1; }
+    .navbar-nav .nav-item.order-2 { order: 2; }
+    .navbar-nav .nav-item.order-3 { order: 3; }
+    .navbar-nav .nav-item.order-4 { order: 4; }
+    .navbar-nav .nav-item.order-5 { order: 4; }
+
+    .about-container,
+    .product-container,
+    .partners-container,
+    .contact-container {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center;
+    }
+
+    .social-buttons {
+        flex-direction: column;  /* Stack buttons vertically on small screens */
+        align-items: center;  /* Center buttons vertically */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns left */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .about-text,
+    .about-text1,
+    .product-info,
+    .contact-details {
+        text-align: left;
+        max-width: 100%; /* Full width for text */
+    }
+
+    .banner {
+        height: 400px; /* Reduce banner height */
+    }
+
+    .contact-form,
+    .contact-details {
+        max-width: 100%; /* Full width */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar elements vertically */
+        height: auto;
+        padding: 0.625em;
+    }
+
+    .navbar .logo img {
+        height: 35px;
+        width: 120px; /* Reduce logo size */
+    }
+
+    .navbar .menu a {
+        padding: 0.625em 1.25em; /* Reduce padding for menu links */
+    }
+
+    .product-container {
+        align-items: center;
+        flex-direction: column; /* Stack products vertically */
+    }
+
+    .product-card {
+        width: 90%; /* Adjust product card width */
+    }
+
+    .product-card:hover {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Styles for devices 576px or smaller */
+    body {
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: fit-content; /* Adjust banner image width */
+        height: auto;
+    }
+    .about-container1 {
+        flex-direction: column; /* Stack the text and image vertically on mobile */
+        align-items: flex-start; /* Align text to the left */
+        
+    }
+
+    .banner-text h1 {
+        font-size: 1em;
+        margin: 0;
+        display: none;
+    }
+    
+    .banner-text p {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: none;
+    }
+
+    .banner-text h3 {
+        font-size: 1.5em;
+        margin-top: 0.625em;
+        display: block;
+    }
+
+    .about-image1{
+        display: none;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/mob_banner.png') no-repeat center center/cover;
+        width: 100%; /* Or a specific width */
+        height: 100%; /* Or a specific height */
+        object-fit: fill; /* Stretch the image to fill the container */
+    }
+
+    #partners .partner-logo:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .about-text1 {
+        max-width: 100%; /* Allow the text container to take full width */
+        margin-bottom: 20px; /* Space between text and image */
+        text-align: left;
+
+    }
+
+    .about-image1 {
+        max-width: 100%; /* Allow the image container to take full width */
+        ;
+    }
+
+    .prodcut {
+        align-items: center;
+    }
+
+    .banner h1 {
+        display: none;
+    }
+    
+    .banner h3 {
+        display: block;
+    }
+
+    #partners {
+        text-align: center;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #contact {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    ul {
+        list-style: none; /* Remove dots or bullets */
+        padding: 0; /* Optional: Adjust padding for alignment */
+        margin: 0; /* Optional: Adjust margin */
+    }
+
+    ul li {
+        display: block; /* Ensure the text is visible */
+        margin: 0.625em 0; /* Add space between list items */
+    }
+
+    .banner {
+        height: 300px; /* Smaller banner for mobile */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9em; /* Adjust input font size */
+    }
+
+    .navbar {
+        padding: 0.625em;
+    }
+
+    .navbar .menu a {
+        font-size: 12px;
+        padding: 0.5em 0.625em; /* Smaller padding for menu links */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .about-text h3 {
+        font-size: 1.5em; /* Smaller heading */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns center */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .logo {
+        text-align: center; /* Center the logo container */
+        margin: 0 auto; /* Optional: ensures proper centering */
+        display: block;
+    }
+
+    .navbar .logo {
+        margin: 0 auto; /* Center the logo horizontally */
+        text-align: center; /* Center the logo content */
+        margin-bottom: 20px;
+    }
+
+    .navbar .logo img {
+        margin: 0 auto; /* Center the logo image */
+    }
+
+    .banner-text {
+        font-size: 1.2rem; /* Reduce font size */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    /* Ensure the text wraps properly */
+    .banner-text {
+        white-space: normal; /* Allow text to wrap */
+        word-wrap: break-word; /* Break long words */
+        text-align: center; /* Center-align text */
+    }
+
+
+    /* Ensure the content does not move out of the screen */
+    .content {
+        padding: 1em; /* Adjust padding for better fit */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    .product-card {
+        width: 100%; /* Full width for product cards */
+    }
+
+    .product-info {
+        padding: 1em; /* Adjust padding for better fit */
+    }
+
+    .container {
+        flex-wrap: wrap; /* Allow items to wrap when needed */
+        justify-content: space-between; /* Space between logo and language switch */
+    }
+
+    .language-switch {
+        margin-top: 10px; /* Add some space if needed between language buttons and other items */
+        justify-content: flex-start; /* Align language buttons to the left */
+    }    
+
+    .product img.hover { opacity: 0; /* Keep the hover image transparent */ } 
+    .product:hover img.hover { opacity: 0; /* Ensure the hover image stays transparent on hover */ } 
+    .product:hover img.default { opacity: 1; /* Ensure the default image stays visible on hover */ }
+
+    .navbar-nav .nav-item.order-1 { order: 1; }
+    .navbar-nav .nav-item.order-2 { order: 2; }
+    .navbar-nav .nav-item.order-3 { order: 3; }
+    .navbar-nav .nav-item.order-4 { order: 4; }
+    .navbar-nav .nav-item.order-5 { order: 4; }
+
+    .about-container,
+    .product-container,
+    .partners-container,
+    .contact-container {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center;
+    }
+
+    .social-buttons {
+        flex-direction: column;  /* Stack buttons vertically on small screens */
+        align-items: center;  /* Center buttons vertically */
+    }
+
+    .navbar-nav {
+        text-align: left; /* Align text to the left */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: left; /* Ensure each nav item aligns left */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: left; /* Align the links inside the nav items */
+    }
+
+    .about-text,
+    .about-text1,
+    .product-info,
+    .contact-details {
+        text-align: left;
+        max-width: 100%; /* Full width for text */
+    }
+
+    .banner {
+        height: 400px; /* Reduce banner height */
+    }
+
+    .contact-form,
+    .contact-details {
+        max-width: 100%; /* Full width */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar elements vertically */
+        height: auto;
+        padding: 0.625em;
+    }
+
+    .navbar .logo img {
+        height: 35px;
+        width: 120px; /* Reduce logo size */
+    }
+
+    .navbar .menu a {
+        padding: 0.625em 1.25em; /* Reduce padding for menu links */
+    }
+
+    .product-container {
+        align-items: center;
+        flex-direction: column; /* Stack products vertically */
+    }
+
+    .product-card {
+        width: 90%; /* Adjust product card width */
+    }
+
+    .product-card:hover {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+
+
+
+ 

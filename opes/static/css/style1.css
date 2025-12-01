@@ -1,0 +1,102 @@
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.banner-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+
+}
+
+.banner-text h3 {
+    display: none;
+}
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.partner-logo {
+    flex: 1 1 calc(23% - 10px); /* Corrected 'lex' to 'flex' */
+    box-sizing: border-box;
+    padding-top: 1em; /* Adds space at the top */
+    padding-bottom: 1em; /* Adds space at the bottom */
+ 
+}
+
+#partners {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    text-align: center;     /* Align text to the center */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Ensure space between items */
+}
+
+.language-switch {
+    display: flex;
+    margin-left: 15px; /* Space between hamburger and language switcher */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 10%;
+    height: 5em;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    background-color: green;
+    color: white;
+}
+
+.product img { width: 100%; height: auto; transition: opacity 0.5s ease; position: relative; overflow: hidden; }
+
+
+
+.navbar-nav .nav-item.order-1 { order: 1; }
+.navbar-nav .nav-item.order-3 { order: 3; }
+.navbar-nav .nav-item.order-4 { order: 4; }
+.navbar-nav .nav-item.order-5 { order: 5; }
+.navbar-nav .nav-item.order-2 { order: 2; }
+.navbar-nav .nav-item.order-5 { order: 6; }
+

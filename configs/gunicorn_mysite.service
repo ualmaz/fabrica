@@ -10,10 +10,10 @@ Group=www-data
 RuntimeDirectory=gunicorn
 RuntimeDirectoryMode=0775
 PIDFile=/run/gunicorn/pid
-WorkingDirectory=/home/ualmaz/myproject
-ExecStart=/home/ualmaz/myproject/env/bin/gunicorn \
-          --access-logfile /home/ualmaz/myproject/logs/access.log \
-          --error-logfile /home/ualmaz/myproject/logs/error.log \
+WorkingDirectory=/home/ualmaz/sewing
+ExecStart=/home/ualmaz/sewing/env/bin/gunicorn \
+          --access-logfile /home/ualmaz/sewing/logs/access.log \
+          --error-logfile /home/ualmaz/sewing/logs/error.log \
           --pid /run/gunicorn/pid   \
           --env DJANGO_SETTINGS_MODULE=mysite.settings_prod \
           --workers 3 \
